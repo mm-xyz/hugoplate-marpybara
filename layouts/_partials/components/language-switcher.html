@@ -14,7 +14,7 @@
 {{ end }}
 
 <select class="{{ $class }}" onchange="location = this.value">
-  {{ range hugo.Sites }}
+  {{ range site.Home.AllTranslations }}
     {{/* Fill the dropdown with all known languages */}}
     {{ $link := $pageTranslations.Get .Language.Lang }}
     {{ if $link }}
