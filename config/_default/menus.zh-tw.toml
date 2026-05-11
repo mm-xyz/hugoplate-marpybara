@@ -1,0 +1,63 @@
+############# 繁體中文導覽 ##############
+
+# main menu
+[[main]]
+name = "首頁"
+url = "/"
+weight = 1
+
+[[main]]
+name = "關於"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "元素"
+url = "/elements"
+weight = 3
+
+[[main]]
+weight = 4
+name = "頁面"
+
+[[main]]
+parent = "頁面"
+name = "部落格"
+url = "/blog"
+
+[[main]]
+parent = "頁面"
+name = "聯絡"
+url = "/contact"
+
+[[main]]
+parent = "頁面"
+name = "作者"
+url = "/authors"
+
+[[main]]
+parent = "頁面"
+name = "分類"
+url = "/categories"
+
+[[main]]
+parent = "頁面"
+name = "404 頁面"
+url = "/404"
+
+
+# footer menu
+[[footer]]
+name = "關於"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "元素"
+url = "/elements"
+weight = 2
+
+[[footer]]
+name = "隱私政策"
+url = "/privacy-policy"
+weight = 3

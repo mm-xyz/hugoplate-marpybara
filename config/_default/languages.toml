@@ -1,0 +1,13 @@
+################ English language ##################
+[zh-tw]
+label = "繁中"
+locale = "zh-tw"
+contentDir = "content/zh-tw"
+weight = 1
+
+################ English language ##################
+[en]
+label = "En"
+locale = "en-us"
+contentDir = "content/english"
+weight = 2
